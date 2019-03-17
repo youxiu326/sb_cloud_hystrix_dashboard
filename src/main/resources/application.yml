@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sb-cloud-hystrix-dashboard
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.108.85.204:8761/eureka/
+  #instance:
+    #注册时使用ip而不是主机名
+    #prefer-ip-address: true
+    #指定ip
+    #ip-address: ip
+server:
+  port: 9007
+
